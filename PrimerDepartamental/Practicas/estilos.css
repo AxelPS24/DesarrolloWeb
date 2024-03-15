@@ -1,0 +1,32 @@
+.h1 {
+    color:aqua ;
+}
+
+body {
+    background-color:#001301 ;
+    font : arial;
+    color:white;
+}
+
+.cont {
+	border: 1px solid green;
+	padding: 20px;
+	border-radius: 10px;
+	width: 800px;
+	margin: 0 auto;
+	background-color: gainsboro;
+	box-shadow: 0 0 20px 0 green;
+}
+
+.En{
+    background-color: rgb(171, 205, 50);
+}
+
+.Pie{
+    background-color: rgb(205, 166, 50);
+}
+
+.boton {
+    background-color: yellow;
+    width: 800px;
+}
