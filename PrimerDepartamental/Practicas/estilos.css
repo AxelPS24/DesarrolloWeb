@@ -1,6 +1,3 @@
-.h1 {
-    color:aqua ;
-}
 
 body {
     background-color:#001301 ;
@@ -10,6 +7,8 @@ body {
 
 .cont {
 	border: 1px solid green;
+    font : arial;
+    color:rgb(0, 0, 0);
 	padding: 20px;
 	border-radius: 10px;
 	width: 800px;
@@ -19,14 +18,14 @@ body {
 }
 
 .En{
-    background-color: rgb(171, 205, 50);
+    background-color: rgb(218, 218, 0);
 }
 
 .Pie{
-    background-color: rgb(205, 166, 50);
+    background-color: rgb(255, 153, 0);
 }
 
 .boton {
-    background-color: yellow;
+    background-color: rgb(218, 218, 0);
     width: 800px;
 }
