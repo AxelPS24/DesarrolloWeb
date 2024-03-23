@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Datos estudiante</title>
+    <script type="text/javascript" src="./calificaciones.js"></script>
+    <link rel="stylesheet" type="text/css" href="./estilos9.css"/>
+</head>
+<body>
+    <h1>Formulario Calificaciones</h1>
+    <form class="cont">
+        <label>Matrícula:</label><br>
+        <input type="number" id="matricula">
+        <br><br>
+        <label>Nombre:</label><br>
+        <input type="text" id="nombre">
+        <br><br>
+        <label>Materia 1:</label><br>
+        <select id="materia1">
+            <option value="Desarrollo de aplicaciones Web">Desarrollo de aplicaciones Web</option>
+            <option value="Auditoria informatica">Auditoria informatica</option>
+            <option value="Fundamentos de investigación">Fundamentos de investigación</option>
+            <option value="Interconectividad de redes">Interconectividad de redes</option>
+        </select><br><br>
+        <label>Calificación de Materia 1</label><br>
+        <input type="number" id="calificacion1">
+        <br><br>
+        <label>Materia 2</label><br>
+        <select id="materia2">
+            <option value="Desarrollo de aplicaciones Web">Desarrollo de aplicaciones Web</option>
+            <option value="Auditoria informatica">Auditoria informatica</option>
+            <option value="Fundamentos de investigación">Fundamentos de investigación</option>
+            <option value="Interconectividad de redes">Interconectividad de redes</option>
+        </select><br><br>
+        <label>Calificación de Materia 2</label><br>
+        <input type="number" id="calificacion2">
+        <br><br>
+        <label>Materia 3</label><br>
+        <select id="materia3">
+            <option value="Desarrollo de aplicaciones Web">Desarrollo de aplicaciones Web</option>
+            <option value="Auditoria informatica">Auditoria informatica</option>
+            <option value="Fundamentos de investigación">Fundamentos de investigación</option>
+            <option value="Interconectividad de redes">Interconectividad de redes</option>
+        </select><br><br>
+        <label>Calificación de Materia 3</label><br>
+        <input type="number" id="calificacion3">
+        <br><br>
+        <label>Materia 4</label><br>
+        <select id="materia4">
+            <option value="Desarrollo de aplicaciones Web">Desarrollo de aplicaciones Web</option>
+            <option value="Auditoria informatica">Auditoria informatica</option>
+            <option value="Fundamentos de investigación">Fundamentos de investigación</option>
+            <option value="Interconectividad de redes">Interconectividad de redes</option>
+        </select><br><br>
+        <label>Calificación de Materia 4</label><br>
+        <input type="number" id="calificacion4">
+        <br><br>
+        <input type="button" id="boton" value="Generar tabla" onclick="validarDatos()">
+    </form>
+    <br><br>
+    <div id="tabla"></div>
+</body>
+</html>
