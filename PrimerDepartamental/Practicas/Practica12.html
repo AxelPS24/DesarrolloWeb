@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos estudiante</title>
+    <link rel="stylesheet" type="text/css" href="estilos12.css"/>
+    <script type="text/javascript" src="registro.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="column left">
+            <h2>WebTech Summit 2024</h2>
+            <p>Explorando el Futuro del Desarrollo Web</p>
+            <p>Fecha: 15-17 de mayo de 2024</p>
+            <p>Lugar: Centro de Convenciones TechHub, Ciudad Metrópolis</p>
+            <p>¡Únete a nosotros en el WebTech Summit 2024 y sé parte de la próxima revolución en el desarrollo web!</p>
+        </div>
+
+        <div class="column center">
+            <h1>Formulario de Registro</h1>
+            <form class="cont">
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre">
+                <br><br>
+                <label for="correo">Correo:</label><br>
+                <input type="text" id="correo">
+                <br><br>
+                <label for="telefono">Número Teléfono:</label><br>
+                <input type="number" id="telefono">
+                <br><br>
+                <label for="materia1">Tipo de entrada:</label><br>
+                <select id="materia1">
+                    <option value="General">General</option>
+                    <option value="VIP">VIP</option>
+                    <option value="Platino">Platino</option>
+                </select><br><br>
+                <input type="button" id="boton" value="Enviar" onclick="validarDatos()">
+            </form>
+        </div>
+
+        <div class="column right">
+            <!-- Columna derecha vacía -->
+        </div>
+    </div>
+</body>
+</html>
