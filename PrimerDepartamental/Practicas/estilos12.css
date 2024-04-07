@@ -1,31 +1,39 @@
+/* estilos12.css */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    font-family: Arial, sans-serif; /* Fuente de texto */
+    margin: 0; /* Sin márgenes */
+    padding: 0; /* Sin relleno */
 }
 
+/* Contenedor principal que utiliza Flexbox para organizar las columnas */
 .container {
-    display: flex;
+    display: flex; /* Utiliza Flexbox */
 }
 
+/* Estilos para cada columna */
 .column {
-    flex: 1;
-    padding: 20px;
+    flex: 1; /* Cada columna toma el mismo espacio */
+    padding: 20px; /* Relleno interno */
 }
 
+/* Estilos para la columna izquierda */
 .left {
-    background-color: #f2f2f2;
+    background-color: #f2f2f2; /* Color de fondo */
 }
 
+/* Estilos para la columna central */
 .center {
-    background-color: #e6e6e6;
+    background-color: #e6e6e6; /* Color de fondo */
 }
 
+/* Estilos para la columna derecha */
 .right {
-    background-color: #cccccc;
+    background-color: #cccccc; /* Color de fondo */
 }
+
+/* Estilos para el botón de tipo "button" */
 input[type="button"] {
-    background-color: #0059ff;
-    color: white;
-    border-radius: 5px;
+    background-color: #0059ff; /* Color de fondo */
+    color: white; /* Color del texto */
+    border-radius: 5px; /* Borde redondeado */
 }

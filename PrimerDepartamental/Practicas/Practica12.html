@@ -1,14 +1,19 @@
+<!-- Practica12.html -->
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Datos estudiante</title>
+    <title>Registro Evento</title>
+    <!-- Enlace al archivo CSS3 -->
     <link rel="stylesheet" type="text/css" href="estilos12.css"/>
+    <!-- Vinculación al archivo JavaScript -->
     <script type="text/javascript" src="registro.js"></script>
 </head>
 <body>
+    <!-- Contenedor principal -->
     <div class="container">
+        <!-- Columna izquierda con la descripción, información y detalles del evento-->
         <div class="column left">
             <h2>WebTech Summit 2024</h2>
             <p>Explorando el Futuro del Desarrollo Web</p>
@@ -17,6 +22,7 @@
             <p>¡Únete a nosotros en el WebTech Summit 2024 y sé parte de la próxima revolución en el desarrollo web!</p>
         </div>
 
+        <!-- Columna central con el formulario de datos-->
         <div class="column center">
             <h1>Formulario de Registro</h1>
             <form class="cont">
@@ -29,8 +35,8 @@
                 <label for="telefono">Número Teléfono:</label><br>
                 <input type="number" id="telefono">
                 <br><br>
-                <label for="materia1">Tipo de entrada:</label><br>
-                <select id="materia1">
+                <label for="entrada">Tipo de entrada:</label><br>
+                <select id="entrada">
                     <option value="General">General</option>
                     <option value="VIP">VIP</option>
                     <option value="Platino">Platino</option>
@@ -39,8 +45,9 @@
             </form>
         </div>
 
+        <!-- Columna derecha con los detalles del registro-->
         <div class="column right">
-            <!-- Columna derecha vacía -->
+            <!-- Esta columna vacía se llenará dinámicamente despues de enviar los datos correctos-->
         </div>
     </div>
 </body>

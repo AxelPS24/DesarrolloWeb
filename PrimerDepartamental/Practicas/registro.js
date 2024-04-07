@@ -3,7 +3,7 @@ function validarDatos() {
     var nombre = document.getElementById('nombre').value;
     var correo = document.getElementById('correo').value;
     var telefono = document.getElementById('telefono').value;
-    var materia1 = document.getElementById('materia1').value;
+    var entrada = document.getElementById('entrada').value;
     
     // Verificar que el campo de nombre no esté vacío
     if (nombre.trim() === '') {
@@ -33,7 +33,7 @@ function validarDatos() {
     }
 
     // Si todos los campos son válidos, mostrar detalles de compra en la columna derecha
-    mostrarDetallesCompra(nombre, correo, telefono, materia1);
+    mostrarDetallesCompra(nombre, correo, telefono, entrada);
 }
 
 // Función para validar el formato de correo electrónico
@@ -43,12 +43,12 @@ function validarCorreo(correo) {
 }
 
 // Función para mostrar detalles de compra en la columna derecha
-function mostrarDetallesCompra(nombre, correo, telefono, materia1) {
+function mostrarDetallesCompra(nombre, correo, telefono, entrada) {
     var columnaDerecha = document.querySelector('.right');
-    columnaDerecha.innerHTML = '<h2>Detalles de compra</h2>' +
+    columnaDerecha.innerHTML = '<h2>Detalles de registro</h2>' +
                                 '<p>Nombre: ' + nombre + '</p>' +
                                 '<p>Correo: ' + correo + '</p>' +
                                 '<p>Teléfono: ' + telefono + '</p>' +
-                                '<p>Tipo de entrada: ' + materia1 + '</p>' +
+                                '<p>Tipo de entrada: ' + entrada + '</p>' +
                                 '<p>¡Registro exitoso!</p>';
 }
